@@ -21,8 +21,8 @@ public:
 	const Node* predecessor(const T& value) const;
 	const Node* successor(const T& value) const;
 
-	int size() const				{ return m_size; }
-	bool empty() const				{ return size() == 0; }
+	int size() const			{ return m_size; }
+	bool empty() const			{ return size() == 0; }
 	const Node* search(const T& value) const;
 	void inorderTreeWalk() const	{ inorderTreeWalk(root); }
 
