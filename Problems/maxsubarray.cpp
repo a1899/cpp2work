@@ -1,3 +1,6 @@
+// Find the nonempty, contiguous subarray of a given 
+// integer array whose values have the largest sum.
+
 #include <iostream>
 #include <vector>
 #include <limits>
